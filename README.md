@@ -1,6 +1,6 @@
 # msis_labs
 
-Lab programs and assignments for my M.Tech coursework.
+Lab programs and assignments for my M.E coursework.
 
 ## Contents
 
