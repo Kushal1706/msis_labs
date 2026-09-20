@@ -7,9 +7,9 @@ Lab programs and assignments for my M.Tech coursework.
 | Folder | Subject |
 |--------|---------|
 | `abd_lab` | Architecture of Big Data |
-| `ads_lab` | Advanced Data Structures |
-| `aml_lab` | Advanced Machine Learning |
-| `aps_lab` | Advanced Programming / Problem Solving |
+| `ads_lab` | Applied Data Structures |
+| `aml_lab` | Applied Machine Learning |
+| `aps_lab` | Applied Probability and Statistics |
 
 ## How to use
 
