@@ -11,29 +11,28 @@ on Hadoop to process a text file stored in HDFS.
 Open the terminal and execute the following commands to create the
 required input directory.
 
-  hdfs dfs -mkdir -p /mrjobs/input
+    hdfs dfs -mkdir -p /mrjobs/input
 
 
 Check whether the directory has been created:
 
-  hdfs dfs -ls /mrjobs
+    hdfs dfs -ls /mrjobs
 
 
 Create a text file named `word.txt` on your local system.
 
-  Example content for `word.txt`:
-
-  hello world hello hadoop mapreduce program hadoop mapreduce
+    Example content for `word.txt`:
+    hello world hello hadoop mapreduce program hadoop mapreduce
 
 
 Upload the text file to HDFS:
 
-  hdfs dfs -put word.txt /mrjobs/input/
+    hdfs dfs -put word.txt /mrjobs/input/
 
 
 Verify that the file has been uploaded successfully:
 
-  hdfs dfs -ls /mrjobs/input
+    hdfs dfs -ls /mrjobs/input
 
 
 **Note:** Do not create the output directory in advance.
